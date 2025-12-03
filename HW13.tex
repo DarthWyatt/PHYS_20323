@@ -1,0 +1,136 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt]{article}
+\usepackage{fancyhdr}
+\usepackage{pslatex}
+\usepackage{epsfig}
+\usepackage{times}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[hidelinks]{hyperref}%renewcommand{\topfraction}{1.0}
+\renewcommand{\topfraction}{1.0}
+\renewcommand{\bottomfraction}{1.0}
+\renewcommand{\textfraction}{0.0}
+\setlength {\textwidth}{6.6in}
+\hoffset=-1.0in
+\oddsidemargin=1.00in
+\marginparsep=0.0in
+\marginparwidth=0.0in                                                                               
+\setlength {\textheight}{9.0in}
+\voffset=-1.00in
+\topmargin=1.0in
+\headheight=0.0in
+\headsep=0.00in
+\footskip=0.50in                                         
+\setcounter{page}{1}
+\begin{document}
+\def\pos{\medskip\quad}
+\def\subpos{\smallskip \qquad}
+\newfont{\nice}{cmr12 scaled 1250}
+\newfont{\name}{cmr12 scaled 1080}
+\newfont{\swell}{cmbx12 scaled 800}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     DO NOT CHANGE ANYTHING ABOVE THIS LINE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     DO NOT CHANGE ANYTHING ABOVE THIS LINE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     DO NOT CHANGE ANYTHING ABOVE THIS LINE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{center}
+{\large
+\bf PHYSICS  X0323: Fall 2025 - LaTeX Example
+}\\
+\end{center}
+
+\noindent {1. At time t = 0 a particle is represented by the wave function} 
+
+%\begin{center}
+
+\begin{equation}
+  \Psi(x) = \begin{cases}
+    A\binom{x}{a}, & 0 \le x \le a \\[1em]
+    A\binom{b-x}{b-a}, & a \le x \le b\\[1em]
+    0, & \text{otherwise}
+    \end{cases}
+\end{equation}
+
+
+%\end{center}
+
+\vskip0.1in
+\indent
+where A, \textit{a} and \textit{b} are constants.
+
+\vskip0.2in
+\indent
+(a) (3.3 points) Normalize $\Psi$ (i.e., find \textit{A} terms of \textit{a} and \textit{b}).
+
+\vskip0.1in
+\indent
+(b) (3.3 points) Where is the particle likely to be found at \textit{t} = 0?.
+
+\vskip0.1in
+\indent
+(c) (3.4 points) What is the expectation value of \textit{x}?.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vskip0.2in
+\noindent
+\textbf{2. The following questions refer to stars in the Table below.}
+\vskip0.01in
+\indent
+\textit{Note: There may be multiple answers.}
+
+\begin{center}
+\begin{tabular}{|l|c|r|r|r|r|r|r|}\hline
+Name & Mass & Luminosity & Lifetime & Temperature & Radius & Variable? \\\hline
+$\delta$ Scu. & 2.0 $M_{\odot}$ &  & $5.0 \times 10^{8}$ years &  & 2.0 $R_{\odot}$ & Y \\\hline
+$\gamma$ Del. & 0.7 $M_{\odot}$ &  & $4.5 \times 10^{10}$ years & 5000 K &  & N  \\\hline
+$\beta$ Cyg. & 1.3 $M_{\odot}$ &  3.5 $L_{\odot}$ &  &  &  & Y  \\\hline
+$\eta$ Car. & 60. $M_{\odot}$ & 10$^{6}$ $L_{\odot}$ & $8.0 \times 10^{5}$ years &  &  & Y \\\hline
+$\epsilon$ Eri. & 6.0 $M_{\odot}$ & 10$^{3}$ $L_{\odot}$ &  & 20,000 K &  & N  \\\hline
+$\alpha$ Cen. & 1.0 $M_{\odot}$ &  &  & 6000 K & 1.0 $R_{\odot}$ & N  \\\hline
+\end{tabular}\vskip 0.2in
+\end{center}
+
+(a) (4 points) Which of these stars will produce a planetary nebula
+\vskip0.1in
+(b) (4 points) Elements heavier than Carbon will be produced in which stars.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vskip0.2in
+\noindent
+3. An electron is found to be in the spin state(in the z-basis): $\chi$ = \textit{A}$\binom{3i}{4}$
+
+\vskip0.3in
+\indent
+(a) (5 points) Determine the possible values of \textit{A} such that the state is normalized.
+\vskip0.1in
+\indent
+(b) (5 points) Find the expectation values of the operators \textcolor{red}{S$_{x}$}, \textcolor{purple}{S$_{y}$}, \textcolor{orange}{S$_{z}$} and S$^{2}$.
+
+\vskip0.2in
+\indent
+The matrix representations in the z-basis for the components of electron spin operators are given by:
+
+\vskip0.2in
+\indent
+\textcolor{red}{S$_{x}$=$\frac{h}{2}$$\binom{0 \; 1}{1 \; 0}$;}
+\indent
+\indent
+\indent
+\textcolor{purple}{S$_{x}$=$\frac{h}{2}$$\binom{0 \; -i}{i \; 0}$;}
+\indent
+\indent
+\indent
+\textcolor{orange}{S$_{x}$=$\frac{h}{2}$$\binom{1 \; 0}{0 \; -1}$;}
+
+\vskip0.5in
+\noindent
+Latex Example
+
+\end{document}
